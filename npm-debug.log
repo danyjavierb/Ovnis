@@ -1,0 +1,602 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/bin/npm', 'install', 'websocket' ]
+info using npm@1.1.4
+info using node@v0.6.12
+verbose config file /home/dany/.npmrc
+verbose config file /usr/etc/npmrc
+verbose config file /usr/share/npm/npmrc
+verbose mkdir done: /var/www/Ch09_websockets 755
+verbose cache add [ 'websocket', null ]
+silly cache add: name, spec, args [ undefined, 'websocket', [ 'websocket', null ] ]
+verbose parsed url { pathname: 'websocket', path: 'websocket', href: 'websocket' }
+verbose addNamed [ 'websocket', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'websocket', '', false ]
+verbose raw, before any munging websocket
+verbose url resolving [ 'https://registry.npmjs.org/', './websocket' ]
+verbose url resolved https://registry.npmjs.org/websocket
+http GET https://registry.npmjs.org/websocket
+http 200 https://registry.npmjs.org/websocket
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"13N9LT57NTK46D41SK3YRW4OS"',
+silly get cb     date: 'Sat, 23 Jun 2012 02:58:40 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '37466' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/dany/.npm/websocket'
+verbose mkdir done: /home/dany/.npm/websocket 755
+silly name, range, hasData 2 [ 'websocket', '', true ]
+silly versions [ 'websocket',
+silly versions   [ '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.0.3',
+silly versions     '0.0.4',
+silly versions     '0.0.5',
+silly versions     '0.0.6',
+silly versions     '0.0.7',
+silly versions     '0.0.8',
+silly versions     '0.0.9',
+silly versions     '0.0.10',
+silly versions     '0.0.11',
+silly versions     '0.0.12',
+silly versions     '0.0.13',
+silly versions     '0.0.14',
+silly versions     '0.0.15',
+silly versions     '0.0.16',
+silly versions     '0.0.17',
+silly versions     '0.0.18',
+silly versions     '0.0.19',
+silly versions     '0.0.20',
+silly versions     '1.0.0',
+silly versions     '1.0.1',
+silly versions     '1.0.2',
+silly versions     '1.0.3',
+silly versions     '1.0.4',
+silly versions     '1.0.5' ] ]
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-x64-3.2.0-24-generic',
+verbose bin dist   { shasum: '334085f87e936efd8d8759aa48ce1cd0e7ea43b1',
+verbose bin dist     tarball: 'http://registry.npmjs.org/websocket/-/websocket-1.0.5.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/websocket/-/websocket-1.0.5.tgz',
+verbose addRemoteTarball   '334085f87e936efd8d8759aa48ce1cd0e7ea43b1' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1340420321231'
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1340420321231/1340420321243-0.5326970019377768'
+verbose mkdir done: /tmp/npm-1340420321231/1340420321243-0.5326970019377768 755
+verbose fetch to /tmp/npm-1340420321231/1340420321243-0.5326970019377768/tmp.tgz
+http GET https://registry.npmjs.org/websocket/-/websocket-1.0.5.tgz
+http 200 https://registry.npmjs.org/websocket/-/websocket-1.0.5.tgz
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 15140
+info shasum 334085f87e936efd8d8759aa48ce1cd0e7ea43b1
+info shasum /tmp/npm-1340420321231/1340420321243-0.5326970019377768/tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm'
+verbose mkdir done: /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1340420321231/1340420321243-0.5326970019377768/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar ok
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/binding.gyp
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/index.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/wscript
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/package.json
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/lib
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/lib/WebSocketRouter.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/lib/WebSocketRequest.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/lib/Validation.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/lib/utils.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/lib/WebSocketConnection.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/lib/WebSocketFrame.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/lib/Constants.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/lib/websocket.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/lib/WebSocketClient.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/lib/WebSocketServer.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/lib/WebSocketRouterRequest.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/src
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/src/validation.cc
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/vendor
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/vendor/FastBufferList.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/vendor/node-ctype
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/vendor/node-ctype/ctio-faster.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/History.md
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/Makefile
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/.gitmodules
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/ejs.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/Readme.md
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/benchmark.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/index.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/ejs.min.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/package.json
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/.npmignore
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/test
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/test/ejs.test.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/examples
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/examples/list.ejs
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/examples/list.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/examples/client.html
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/lib
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/lib/ejs.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/lib/utils.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/lib/filters.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/support
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/support/compile.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/.gitmodules
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/History.md
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/Makefile
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/Readme.md
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/package.json
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/.npmignore
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/bin
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/bin/expresso
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/test
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/test/foo.test.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/test/bar.test.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/test/http.test.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/test/async.test.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/test/assert.test.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/lib
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/lib/foo.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/lib/bar.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/docs
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/docs/index.html
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/docs/index.md
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/docs/api.html
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/docs/layout
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/docs/layout/head.html
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/docs/layout/foot.html
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/History.md
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/Makefile
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/Readme.md
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/index.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/LICENSE
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/package.json
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/.npmignore
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/bin
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/bin/express
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/lib
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/lib/http.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/lib/utils.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/lib/express.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/lib/request.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/lib/https.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/lib/response.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/lib/view.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/lib/router
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/lib/router/collection.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/lib/router/route.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/lib/router/methods.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/lib/router/index.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/lib/view
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/lib/view/view.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/lib/view/partial.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/testing
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/testing/index.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/testing/public
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/testing/public/test.txt
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/testing/views
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/testing/views/page.html
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/testing/views/page.jade
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/testing/views/test.md
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/testing/views/user
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/testing/views/user/index.jade
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/testing/views/user/list.jade
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/testing/foo
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/testing/foo/package.json
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/testing/foo/app.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/testing/foo/routes
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/testing/foo/routes/index.js
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/testing/foo/views
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/testing/foo/views/index.jade
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/testing/foo/views/layout.jade
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/testing/foo/public
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/testing/foo/public/stylesheets
+silly asyncMap in gTP /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package/example/whiteboard/node_modules/express/testing/foo/public/stylesheets/style.css
+silly chmod package 755
+verbose gunzed /tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package
+verbose rm'ed /tmp/npm-1340420321231/1340420321243-0.5326970019377768/package
+verbose renamed [ '/tmp/npm-1340420321231/1340420321243-0.5326970019377768/___package.npm/package',
+verbose renamed   '/tmp/npm-1340420321231/1340420321243-0.5326970019377768/package' ]
+verbose has wscript [ undefined,
+verbose has wscript   { file: '/tmp/npm-1340420321231/1340420321243-0.5326970019377768/package/package.json',
+verbose has wscript     contributors: false,
+verbose has wscript     serverjs: false,
+verbose has wscript     wscript: true } ]
+verbose caching /tmp/npm-1340420321231/1340420321243-0.5326970019377768/package/package.json
+verbose loadDefaults websocket@1.0.5
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache /tmp/npm-1340420321231/1340420321243-0.5326970019377768/package/package.json
+verbose pack /tmp/npm-1340420321231/1340420321243-0.5326970019377768/package
+verbose pack /tmp/npm-1340420321231/1340420321243-0.5326970019377768/package /home/dany/.npm/websocket/1.0.5/package.tgz
+silly makeList /tmp/npm-1340420321231/1340420321243-0.5326970019377768/package
+verbose caching /tmp/npm-1340420321231/1340420321243-0.5326970019377768/package/example/whiteboard/node_modules/ejs/package.json
+verbose loadDefaults ejs@0.4.3
+verbose caching /tmp/npm-1340420321231/1340420321243-0.5326970019377768/package/example/whiteboard/node_modules/express/package.json
+verbose loadDefaults express@2.5.8
+verbose caching /tmp/npm-1340420321231/1340420321243-0.5326970019377768/package/example/whiteboard/node_modules/ejs/support/expresso/package.json
+verbose loadDefaults expresso@0.6.1
+verbose caching /tmp/npm-1340420321231/1340420321243-0.5326970019377768/package/example/whiteboard/node_modules/express/testing/foo/package.json
+verbose loadDefaults application-name@0.0.1
+silly dir, dirLen [ '/tmp/npm-1340420321231/1340420321243-0.5326970019377768/package/example/whiteboard/node_modules/express/testing/foo',
+silly dir, dirLen   116 ]
+silly dir, dirLen [ '/tmp/npm-1340420321231/1340420321243-0.5326970019377768/package/example/whiteboard/node_modules/express',
+silly dir, dirLen   104 ]
+silly dir, dirLen [ '/tmp/npm-1340420321231/1340420321243-0.5326970019377768/package/example/whiteboard/node_modules/ejs/support/expresso',
+silly dir, dirLen   117 ]
+silly dir, dirLen [ '/tmp/npm-1340420321231/1340420321243-0.5326970019377768/package/example/whiteboard/node_modules/ejs',
+silly dir, dirLen   100 ]
+silly dir, dirLen [ '/tmp/npm-1340420321231/1340420321243-0.5326970019377768/package',
+silly dir, dirLen   64 ]
+verbose tarball /home/dany/.npm/websocket/1.0.5/package.tgz
+verbose parent /tmp/npm-1340420321231/1340420321243-0.5326970019377768/package
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/dany/.npm/websocket/1.0.5/___package.npm'
+verbose mkdir done: /home/dany/.npm/websocket/1.0.5/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/dany/.npm/websocket/1.0.5/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar ok
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/index.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/package.json
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/binding.gyp
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/wscript
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/src
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/src/validation.cc
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/lib
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/lib/WebSocketServer.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/lib/WebSocketConnection.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/lib/Constants.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/lib/WebSocketFrame.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/lib/WebSocketRouter.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/lib/WebSocketClient.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/lib/WebSocketRouterRequest.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/lib/websocket.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/lib/WebSocketRequest.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/lib/Validation.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/lib/utils.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/vendor
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/vendor/FastBufferList.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/vendor/node-ctype
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/vendor/node-ctype/ctio-faster.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/index.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/LICENSE
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/package.json
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/History.md
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/.npmignore
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/Readme.md
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/Makefile
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/bin
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/bin/express
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/lib
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/lib/request.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/lib/response.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/lib/view.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/lib/http.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/lib/express.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/lib/https.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/lib/utils.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/lib/router
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/lib/router/index.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/lib/router/route.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/lib/router/methods.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/lib/router/collection.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/lib/view
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/lib/view/view.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/lib/view/partial.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/testing
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/testing/index.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/testing/public
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/testing/public/test.txt
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/testing/views
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/testing/views/page.html
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/testing/views/page.jade
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/testing/views/test.md
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/testing/views/user
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/testing/views/user/index.jade
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/testing/views/user/list.jade
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/testing/foo
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/testing/foo/app.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/testing/foo/package.json
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/testing/foo/routes
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/testing/foo/routes/index.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/testing/foo/views
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/testing/foo/views/index.jade
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/testing/foo/views/layout.jade
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/testing/foo/public
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/testing/foo/public/stylesheets
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/express/testing/foo/public/stylesheets/style.css
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/benchmark.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/index.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/ejs.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/package.json
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/History.md
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/.npmignore
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/ejs.min.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/Readme.md
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/.gitmodules
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/Makefile
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/examples
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/examples/list.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/examples/client.html
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/examples/list.ejs
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/test
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/test/ejs.test.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/lib
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/lib/ejs.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/lib/filters.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/lib/utils.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/support
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/support/compile.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/package.json
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/History.md
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/.npmignore
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/Readme.md
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/.gitmodules
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/Makefile
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/test
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/test/async.test.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/test/bar.test.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/test/http.test.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/test/assert.test.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/test/foo.test.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/bin
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/bin/expresso
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/lib
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/lib/foo.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/lib/bar.js
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/docs
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/docs/index.html
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/docs/api.html
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/docs/index.md
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/docs/layout
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/docs/layout/foot.html
+silly asyncMap in gTP /home/dany/.npm/websocket/1.0.5/___package.npm/package/example/whiteboard/node_modules/ejs/support/expresso/docs/layout/head.html
+silly chmod package 755
+verbose gunzed /home/dany/.npm/websocket/1.0.5/___package.npm/package
+verbose rm'ed /home/dany/.npm/websocket/1.0.5/package
+verbose renamed [ '/home/dany/.npm/websocket/1.0.5/___package.npm/package',
+verbose renamed   '/home/dany/.npm/websocket/1.0.5/package' ]
+verbose has wscript [ undefined,
+verbose has wscript   { file: '/home/dany/.npm/websocket/1.0.5/package/package.json',
+verbose has wscript     contributors: false,
+verbose has wscript     serverjs: false,
+verbose has wscript     wscript: true } ]
+verbose caching /home/dany/.npm/websocket/1.0.5/package/package.json
+verbose loadDefaults websocket@1.0.5
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 17453
+info shasum 7247975a9ba68f8e6b03b1e90cdccd3729cb0f5c
+info shasum /home/dany/.npm/websocket/1.0.5/package.tgz
+verbose from cache /home/dany/.npm/websocket/1.0.5/package/package.json
+verbose chmod /home/dany/.npm/websocket/1.0.5/package.tgz 644
+verbose chown [ '/home/dany/.npm/websocket/1.0.5/package.tgz', 1000, 1000 ]
+silly resolved [ { name: 'websocket',
+silly resolved     description: 'Websocket Client & Server Library tracking the latest protocol drafts from the IETF.',
+silly resolved     keywords: [ 'websocket', 'socket', 'networking', 'comet', 'push' ],
+silly resolved     author: { name: 'Brian McKelvey', email: 'brian@worlize.com' },
+silly resolved     version: '1.0.5',
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/Worlize/WebSocket-Node.git' },
+silly resolved     engines: { node: '>=0.6.0' },
+silly resolved     scripts: 
+silly resolved      { preinstall: 'node-gyp configure',
+silly resolved        install: 'node-gyp build',
+silly resolved        preuninstall: 'node-gyp clean' },
+silly resolved     main: 'index',
+silly resolved     directories: { lib: './lib' },
+silly resolved     _id: 'websocket@1.0.5',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '7247975a9ba68f8e6b03b1e90cdccd3729cb0f5c' },
+silly resolved     _from: 'websocket' } ]
+info into /var/www/Ch09_websockets websocket@1.0.5
+info installOne websocket@1.0.5
+verbose from cache /home/dany/.npm/websocket/1.0.5/package/package.json
+info unbuild /var/www/Ch09_websockets/node_modules/websocket
+verbose mkdir (expected) error ENOENT, no such file or directory '/var/www/Ch09_websockets/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/var/www/Ch09_websockets/node_modules/___websocket.npm'
+verbose mkdir done: /var/www/Ch09_websockets/node_modules/___websocket.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /var/www/Ch09_websockets/node_modules/websocket
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar ok
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/binding.gyp
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/index.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/wscript
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/package.json
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/lib
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/lib/WebSocketRouter.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/lib/WebSocketRequest.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/lib/Validation.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/lib/utils.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/lib/WebSocketConnection.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/lib/WebSocketFrame.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/lib/Constants.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/lib/websocket.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/lib/WebSocketClient.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/lib/WebSocketServer.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/lib/WebSocketRouterRequest.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/src
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/src/validation.cc
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/vendor
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/vendor/FastBufferList.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/vendor/node-ctype
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/vendor/node-ctype/ctio-faster.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/.gitmodules
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/History.md
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/Makefile
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/ejs.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/Readme.md
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/benchmark.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/index.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/ejs.min.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/package.json
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/.npmignore
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/test
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/test/ejs.test.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/examples
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/examples/list.ejs
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/examples/list.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/examples/client.html
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/lib
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/lib/ejs.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/lib/utils.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/lib/filters.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/support
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/support/compile.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/support/expresso
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/support/expresso/.gitmodules
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/support/expresso/History.md
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/support/expresso/Makefile
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/support/expresso/Readme.md
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/support/expresso/package.json
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/support/expresso/.npmignore
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/support/expresso/test
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/support/expresso/test/foo.test.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/support/expresso/test/bar.test.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/support/expresso/test/http.test.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/support/expresso/test/async.test.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/support/expresso/test/assert.test.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/support/expresso/bin
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/support/expresso/bin/expresso
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/support/expresso/lib
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/support/expresso/lib/bar.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/support/expresso/lib/foo.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/support/expresso/docs
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/support/expresso/docs/index.html
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/support/expresso/docs/index.md
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/support/expresso/docs/api.html
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/support/expresso/docs/layout
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/support/expresso/docs/layout/head.html
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/ejs/support/expresso/docs/layout/foot.html
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/History.md
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/Makefile
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/Readme.md
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/index.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/LICENSE
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/package.json
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/.npmignore
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/bin
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/bin/express
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/lib
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/lib/http.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/lib/utils.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/lib/express.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/lib/request.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/lib/https.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/lib/response.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/lib/view.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/lib/router
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/lib/router/collection.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/lib/router/route.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/lib/router/methods.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/lib/router/index.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/lib/view
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/lib/view/view.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/lib/view/partial.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/testing
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/testing/index.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/testing/public
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/testing/public/test.txt
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/testing/views
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/testing/views/page.html
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/testing/views/page.jade
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/testing/views/test.md
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/testing/views/user
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/testing/views/user/index.jade
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/testing/views/user/list.jade
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/testing/foo
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/testing/foo/package.json
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/testing/foo/app.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/testing/foo/routes
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/testing/foo/routes/index.js
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/testing/foo/views
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/testing/foo/views/index.jade
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/testing/foo/views/layout.jade
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/testing/foo/public
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/testing/foo/public/stylesheets
+silly asyncMap in gTP /var/www/Ch09_websockets/node_modules/___websocket.npm/package/example/whiteboard/node_modules/express/testing/foo/public/stylesheets/style.css
+silly chmod package 755
+verbose gunzed /var/www/Ch09_websockets/node_modules/___websocket.npm/package
+verbose rm'ed /var/www/Ch09_websockets/node_modules/websocket
+verbose renamed [ '/var/www/Ch09_websockets/node_modules/___websocket.npm/package',
+verbose renamed   '/var/www/Ch09_websockets/node_modules/websocket' ]
+verbose has wscript [ undefined,
+verbose has wscript   { file: '/var/www/Ch09_websockets/node_modules/websocket/package.json',
+verbose has wscript     contributors: false,
+verbose has wscript     serverjs: false,
+verbose has wscript     wscript: true } ]
+verbose caching /var/www/Ch09_websockets/node_modules/websocket/package.json
+verbose loadDefaults websocket@1.0.5
+info preinstall websocket@1.0.5
+verbose unsafe-perm in lifecycle true
+silly exec sh "-c" "node-gyp configure"
+silly spawning [ 'sh',
+silly spawning   [ '-c', 'node-gyp configure' ],
+silly spawning   '/var/www/Ch09_websockets/node_modules/websocket' ]
+info websocket@1.0.5 Failed to exec preinstall script
+ERR! error installing websocket@1.0.5
+info unbuild /var/www/Ch09_websockets/node_modules/websocket
+verbose from cache /var/www/Ch09_websockets/node_modules/websocket/package.json
+info preuninstall websocket@1.0.5
+verbose unsafe-perm in lifecycle true
+silly exec sh "-c" "node-gyp clean"
+silly spawning [ 'sh',
+silly spawning   [ '-c', 'node-gyp clean' ],
+silly spawning   '/var/www/Ch09_websockets/node_modules/websocket' ]
+info websocket@1.0.5 Failed to exec preuninstall script
+WARN continuing anyway websocket@1.0.5 preuninstall: `node-gyp clean`
+WARN continuing anyway `sh "-c" "node-gyp clean"` failed with 127
+info uninstall websocket@1.0.5
+verbose unbuild websocket@1.0.5 [ true,
+verbose unbuild websocket@1.0.5   '/var/www/Ch09_websockets/node_modules',
+verbose unbuild websocket@1.0.5   '/var/www/Ch09_websockets/node_modules' ]
+info postuninstall websocket@1.0.5
+verbose installOne cb websocket@1.0.5
+ERR! websocket@1.0.5 preinstall: `node-gyp configure`
+ERR! `sh "-c" "node-gyp configure"` failed with 127
+ERR! 
+ERR! Failed at the websocket@1.0.5 preinstall script.
+ERR! This is most likely a problem with the websocket package,
+ERR! not with npm itself.
+ERR! Tell the author that this fails on your system:
+ERR!     node-gyp configure
+ERR! You can get their info via:
+ERR!     npm owner ls websocket
+ERR! There is likely additional logging output above.
+ERR! 
+ERR! System Linux 3.2.0-24-generic
+ERR! command "node" "/usr/bin/npm" "install" "websocket"
+ERR! cwd /var/www/Ch09_websockets
+ERR! node -v v0.6.12
+ERR! npm -v 1.1.4
+ERR! code ELIFECYCLE
+ERR! message websocket@1.0.5 preinstall: `node-gyp configure`
+ERR! message `sh "-c" "node-gyp configure"` failed with 127
+ERR! errno {}
+verbose exit [ 1, true ]
